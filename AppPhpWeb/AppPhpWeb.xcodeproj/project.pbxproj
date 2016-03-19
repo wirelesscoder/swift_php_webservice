@@ -14,6 +14,7 @@
 		2D6457BE1C9D8B0B00A12CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6457BC1C9D8B0B00A12CFE /* LaunchScreen.storyboard */; };
 		2D6457C91C9D8B0B00A12CFE /* AppPhpWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6457C81C9D8B0B00A12CFE /* AppPhpWebTests.swift */; };
 		2D6457D41C9D8B0B00A12CFE /* AppPhpWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6457D31C9D8B0B00A12CFE /* AppPhpWebUITests.swift */; };
+		2D6457E21C9D910700A12CFE /* EntryDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6457E11C9D910700A12CFE /* EntryDateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2D6457CF1C9D8B0B00A12CFE /* AppPhpWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppPhpWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6457D31C9D8B0B00A12CFE /* AppPhpWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPhpWebUITests.swift; sourceTree = "<group>"; };
 		2D6457D51C9D8B0B00A12CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6457E11C9D910700A12CFE /* EntryDateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDateModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2D6457BA1C9D8B0B00A12CFE /* Assets.xcassets */,
 				2D6457BC1C9D8B0B00A12CFE /* LaunchScreen.storyboard */,
 				2D6457BF1C9D8B0B00A12CFE /* Info.plist */,
+				2D6457E11C9D910700A12CFE /* EntryDateModel.swift */,
 			);
 			path = AppPhpWeb;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				2D6457B61C9D8B0B00A12CFE /* ViewController.swift in Sources */,
 				2D6457B41C9D8B0B00A12CFE /* AppDelegate.swift in Sources */,
+				2D6457E21C9D910700A12CFE /* EntryDateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
