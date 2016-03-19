@@ -31,7 +31,7 @@
 	$tempArray = array();
 	  
 	// select ALL from table 
-	$sql = "SELECT * FROM" . $tableName;
+	$sql = "SELECT * FROM " . $tableName;
 	 
 	// check for results
 	if ($result = mysqli_query($dbcon, $sql))
